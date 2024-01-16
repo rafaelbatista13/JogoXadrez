@@ -1,8 +1,8 @@
+import boardgame.Board;
 import boardgame.Position;
 
 public class Application {
     public static void main(String[] args) throws Exception {
-        Position p = new Position(1, 1);
-        System.out.println(p);
+        Board board = new Board(8, 8);
     }
 }
